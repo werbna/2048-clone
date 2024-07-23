@@ -1,13 +1,3 @@
-/* <uniquifier>: Use a unique and descriptive class name */
-/* <weight>: Use a value from 300 to 700 */
-
-.quicksand-<uniquifier> {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-}
-
 body {
   font-family: 'Quicksand', Arial, Helvetica, sans-serif;
   text-align: center;
@@ -18,20 +8,18 @@ hr {
 }
 
 #board {
-  width: 500px;
-  height: 500px;
-
+  width: 400px;
+  height: 400px;
   background-color: #cdc1b5;
   border: 6px solid #bbada0;
-
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
 }
 
 #tile {
-  width: 115px;
-  height: 115px;
+  width: 90px;
+  height: 90px;
   border: 5px solid #bbada0;
   font-size: 40px;
   font-weight: bold;
